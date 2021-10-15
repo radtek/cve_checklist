@@ -1,5 +1,23 @@
 #!/usr/bin/bash
 #. ./oracle_param.ini
+################################################################################
+#                              CVE-2021-2333                                   
+#                         12.1.0.2, 12.2.0.1, 19c                              
+# Sample script that checks the DB version and execute a check following       
+# by recommendation. 
+# Create oracle_param.ini file with defined variables                                                         
+# Both script and ini required to have u+x permission
+# Sample exection
+# $./sample.sh
+# 
+# Change History                                                               
+# 15/10/2021  Deepak Baranwal  Original code. This is a template for creating     
+#                              new Bash shell scripts.                            
+#                              Add new history entries as needed.                 
+#                                                                              
+#                                                                              
+################################################################################
+################################################################################
 
 ORACLE_BASE=/u01/app/oracle
 ORACLE_HOME=/u01/app/oracle/product/18.4.0/db_1
